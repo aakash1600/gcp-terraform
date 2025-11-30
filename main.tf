@@ -15,8 +15,8 @@ provider "google" {
 
 
 resource "google_storage_bucket" "my-bucket" {
-  name          = "tt-githubdemo-bucket01"
-  location      = "US"
-  force_destroy = true
+  name                     = "tt-githubdemo-bucket01"
+  location                 = "US"
+  force_destroy            = true
   public_access_prevention = "enforced"
 }
